@@ -3,8 +3,8 @@ import { HeaderNavProps } from "./types";
 
 export function HeaderNav(props: HeaderNavProps) {
     return (
-    <nav className="">
-        <ul>
+    <nav>
+        <ul className="flex flex-row gap-3">
             <HeaderNavItem 
                 title="Sobre Mim"
                 href="#about-me"
