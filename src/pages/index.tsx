@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Header } from '@/components/Header'
 
 export default function Home() {
     return <>
@@ -7,6 +6,8 @@ export default function Home() {
             <title>Matheus Moselli</title>
         </Head>
 
-        <Header />
+        <main className="bg-cover bg-center bg-image">
+
+        </main>
     </>
 }

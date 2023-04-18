@@ -6,13 +6,13 @@ export function HeaderNav(props: HeaderNavProps) {
     <nav>
         <ul className="flex flex-row gap-3">
             <HeaderNavItem 
-                title="Sobre Mim"
+                title="&#129680; Sobre Mim"
                 href="#about-me"
                 active
             />
         
             <HeaderNavItem 
-                title="Meu Ensino"
+                title="&#128640; Meu Ensino"
                 href="#knowledge"
                 active={false}
             />

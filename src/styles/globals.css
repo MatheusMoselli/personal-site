@@ -18,3 +18,11 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb)); 
 }
+
+main.bg-image {
+    background-image: url("../../public/galaxy.jpg");
+    height: calc(85vh - 6rem);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: auto;
+}
