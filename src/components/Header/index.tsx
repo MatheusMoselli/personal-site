@@ -10,7 +10,7 @@ export function Header() {
             <motion.h1 
                 drag
                 dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                className={`text-3xl ${righteous.className}`}
+                className={`text-3xl ${righteous.className} cursor-grab`}
             >
                 Mtw
             </motion.h1>
