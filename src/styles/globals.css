@@ -10,11 +10,37 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-rgb: 31, 41, 55;
+    --background-rgb: 45, 39, 39;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb)); 
+}
+
+.bg-summary {
+    background: linear-gradient(
+        45deg, 
+        rgba(2, 0, 36, 1) 0%, 
+        rgba(9, 9, 121, 0.87) 35%,
+        rgba(0, 212, 255, 0.72) 100%
+    );  
+}
+
+.wave-divider {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.wave-divider .shape-fill {
+    fill: #8F43EE;
 }

@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     extend: {
         colors: {
-            primary: "#4C8577",
+            primary: "#2D2727",
+            secondary: "#8F43EE"
         },
         fontFamily: {
             sans: ["Roboto", ...defaultTheme.fontFamily.sans]

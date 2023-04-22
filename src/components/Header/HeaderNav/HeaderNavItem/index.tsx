@@ -9,7 +9,7 @@ export function HeaderNavItem(props: HeaderNavItemProps) {
         >
             <a 
                 href={props.href} 
-                className={`text-base px-4 py-3`}
+                className={`text-base px-4 py-3 scroll-smooth`}
             >
                 {props.title}
             </a>
